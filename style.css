@@ -38,7 +38,7 @@ ul a {
   transition: opacity 700ms ease;
 }
 
-ul:has(:hover) a:not(:hover, :visited) {
+ul:has(:hover) a:not(:hover) {
   opacity: 0.5;
 }
 
